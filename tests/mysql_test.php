@@ -7,8 +7,6 @@ require_once '../core/mysql.php';
 
 insert_teste('leonel','leonelsouza@gmail.com','123321');
 //buscar_teste();
-update_teste(38,'vitor','vitorpesquero@gmail.com');
-//buscar_teste();
 
 function insert_teste($nome, $email, $senha): void
 {
